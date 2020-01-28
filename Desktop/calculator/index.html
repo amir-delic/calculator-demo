@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+  
+<div class="calculator">
+  <input class="textview" type="text" value="" >
+  <div class="btn">
+    <button onclick="insert('/')" value="/">/</button>
+    <button onclick="insert('*')" value="X">X</button>
+    <button onclick="insert('-')" value="-">-</button>
+    <button onclick="insert('+')" value="+">+</button>
+    <button onclick="insert(7)" value="7">7</button>
+    <button onclick="insert(8)" value="8">8</button>
+    <button onclick="insert(9)" value="9">9</button>
+    <button onclick="back()" value="deleteOne">🎈</button>
+    <button onclick="insert(4)" value="4">4</button>
+    <button onclick="insert(5)" value="5">5</button>
+    <button onclick="insert(6)" value="6">6</button>
+    <button onclick="clean()" value="C">C</button>
+    <button onclick="insert(1)" value="1">1</button>
+    <button onclick="insert(2)" value="2">2</button>
+    <button onclick="insert(3)" value="3">3</button>
+    <button onclick="insert('.')" value=".">.</button>
+    <button onclick="insert(0)" value="0">0</button>
+    <button onclick="equal()" id="jednako" value="=">=</button>
+   
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
